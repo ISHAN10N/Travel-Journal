@@ -1,0 +1,106 @@
+* {
+  margin: 0px;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+.app--container {
+  border: 1px solid green;
+  width: 550px;
+  margin: 10px auto;
+  background-color: rgba(245, 238, 238, 0.888)
+}
+
+.navbar--container {
+  height: 55px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(228, 44, 44);
+}
+
+.middle--container {
+
+  display: flex;
+  display: inline-block;
+}
+
+.nav--image {
+  height: 24px;
+  margin-right: 9px;
+  filter: invert(1);
+
+}
+
+.nav--p {
+  font-size: 14px;
+  margin-top: 2px;
+  font-weight: bold;
+  color: white;
+}
+
+.place--container {
+  width: 471px;
+  height: 168px;
+  border: 1px solid black;
+  border-radius: 9px;
+  margin: 30px auto;
+  display: flex;
+  padding: 10px 10px;
+}
+
+.left--container {}
+
+.left--image {
+  width: 126px;
+  height: 168px;
+  border-top-right-radius: 9px;
+  border-bottom-right-radius: 9px;
+}
+
+.right--container {
+
+  margin: 20px;
+}
+
+.first--container {
+  display: flex;
+}
+
+.city--image {
+  height: 15px;
+  margin: auto;
+}
+
+.city--name {
+  font-size: 16px;
+}
+
+
+.map--link {
+  font-size: 12px;
+  margin: 14px;
+  color: grey;
+}
+
+.main--h1 {
+  font-size: 25px;
+}
+
+.content--part h4 {
+  font-size: 10px;
+  margin-bottom: 6px;
+  color: rgb(53, 52, 52);
+}
+
+.content--part p {
+
+  font-size: 10.24px;
+}
+.content--part h5{
+  font-size: 10px;
+  margin-bottom: 6px;
+  color:rgb(53, 52, 52)0;
+}
